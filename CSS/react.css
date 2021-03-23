@@ -1,0 +1,93 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	 display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+	padding: 30px;
+}
+#main_body{
+
+	margin: 2px;
+	padding: 0px;
+}
+.header a{
+	font-family: 'MedievalSharp', cursive;
+	font-size: 40px;
+	border-radius: 9px;
+	color: #3c415c;
+}
+.header a:hover{
+	background-color: #caf7e3;
+}
+.container{
+	width: 800px;
+	box-shadow: 5px 5px 5px 10px #888888;
+	float: center;
+	border-radius: 5px;
+	margin: 5rem 0;
+	padding-bottom: 10px; 
+	background-color: #ffffff;
+
+
+}
+
+/*11355+1500+3015=15870*/
+.container img{
+	width: 100%;
+	height: 400px;
+
+}
+.container p{
+	margin-top: 0px;
+	padding: 5px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 18px;
+
+}
+.text_box{
+	height: 60px;
+	padding: 5px;
+}
+.text_box>h4{
+	height: 40px;
+	padding: 2px 0px;
+	margin: 0px;
+	width: 500px;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 20px;
+	display: inline-block;
+}
+.text_box>strong{
+	float: right;
+	background-color: #e4fbff;
+	color: #9fd8df;
+	padding: 8px;
+}
+.interestedbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.interestedbtn button{
+	width: 200px;
+	height: 50px;
+	background: transparent;
+	border-radius: 5px;
+	border-style: none;
+}
+.interestedbtn a{
+		font-family: 'Crete Round', serif;
+	font-size: 30px;	
+	color: #161b40;
+	text-decoration-style: none;
+}
+.interestedbtn>button:hover{
+	background-color: #caf7e3;
+}
